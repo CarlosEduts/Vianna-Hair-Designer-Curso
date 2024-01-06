@@ -1,0 +1,222 @@
+/* Responsiveness */
+
+/* Large tablets/laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 0 5%;
+  }
+
+  .aboutProfessor .image {
+    height: 32.5rem;
+  }
+}
+
+/* Small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 0 5%;
+  }
+
+  .aboutProfessor .image {
+    height: 28.75rem;
+  }
+}
+
+/* Extra small devices */
+@media (min-width: 481px) and (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 0 5%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  video {
+    height: 19.75rem;
+  }
+
+  header {
+    padding: 5rem 0;
+  }
+
+  .aboutCourse > .sectionContainer {
+    flex-direction: column;
+  }
+
+  .aboutCourse .primaryCard {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .aboutCourse .primaryCard > .content {
+    padding: 1.5rem;
+  }
+
+  .aboutCourse .image {
+    height: 20.375rem;
+    border-radius: 0 0 1.25rem 1.25rem;
+  }
+
+  .aboutLearn > .content {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+  }
+
+  .aboutLearn > .content > div {
+    gap: 1.5rem;
+    flex: 1 0 0;
+  }
+
+  .aboutProfessor > .content {
+    height: 31.25rem;
+    flex-direction: column;
+  }
+
+  .aboutProfessor .image {
+    width: 100%;
+    height: 20.375rem;
+    border-radius: 0 0 1.25rem 1.25rem;
+  }
+
+  .accordion div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  footer .links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .credits {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .footerLinks {
+    flex-direction: column;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 0 5%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  video {
+    height: 19.75rem;
+  }
+
+  header {
+    padding: 3.75rem 0;
+  }
+
+  .aboutCourse > .sectionContainer {
+    flex-direction: column;
+  }
+
+  .aboutCourse .primaryCard {
+    height: 33rem;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .aboutCourse .primaryCard > .content {
+    padding: 1rem;
+  }
+
+  .aboutCourse .image {
+    height: 25.375rem;
+    border-radius: 0 0 var(--primary-radius) var(--primary-radius);
+  }
+
+  .aboutLearn > .content {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+  }
+
+  .aboutLearn > .content > div {
+    gap: 1.5rem;
+    flex: 1 0 0;
+  }
+
+  .aboutProfessor > .content {
+    height: 35.25rem;
+    flex-direction: column;
+  }
+
+  .aboutProfessor .image {
+    width: 100%;
+    height: 20.375rem;
+    border-radius: 0 0 1.25rem 1.25rem;
+  }
+
+  .aboutProfessor .column {
+    padding: 1.5rem;
+  }
+
+  .testimonial .sectionContainer {
+    flex-direction: column;
+  }
+
+  .accordion div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  footer .links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .credits {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .footerLinks {
+    flex-direction: column;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+}
