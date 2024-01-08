@@ -82,9 +82,13 @@ b {
   padding: 0.75rem 1.5rem;
   border-radius: 0.4375rem;
   background: var(--secondary-color);
+}
+
+.primaryButton > a {
   color: var(--white);
   font-size: 1rem;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .secondaryButton {
