@@ -13,12 +13,18 @@ html {
 }
 
 :root {
-  --primary-color: #4a593b;
-  --secondary-color: #005d9a;
-  --black: #000;
+  --primary-color: #05f26c;
+  --secondary-color: #038c73;
   --white: #fff;
+  --black: #000;
   --primary-radius: 1.25rem;
-  --secondary-radius: 0.9375rem;
+  --secondary-radius: 0.7rem;
+}
+
+/* Background */
+
+body {
+  background: var(--black);
 }
 
 /* Global Styles */
@@ -47,7 +53,7 @@ h2 {
 }
 
 h3 /*Logo*/ {
-  color: var(--black);
+  color: var(--white);
   font-size: 2rem;
   font-weight: 900;
   line-height: 150%;
@@ -67,7 +73,7 @@ h5 {
 }
 
 p {
-  color: var(--black);
+  color: var(--white);
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
@@ -95,6 +101,7 @@ b {
   padding: 0.75rem 1.5rem;
   border-radius: 0.4375rem;
   border: 1px solid var(--primary-color);
+  background-color: var(--black);
 }
 
 .secondaryButton > a {
@@ -102,6 +109,19 @@ b {
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
+}
+
+/* Border */
+
+video,
+.aboutCourse .primaryCard,
+.aboutCourse .card,
+.pricing .sectionContainer,
+.aboutProfessor > .content,
+.testimonial .column,
+.faq details {
+  border: 1px solid var(--secondary-color);
+  box-shadow: 0 0 0.6rem rgba(3, 140, 115, 0.7);
 }
 
 /* Other Styles*/
@@ -186,7 +206,6 @@ video {
   width: 40%;
   min-height: 18.75rem;
   border-radius: var(--primary-radius);
-  border: 1px solid var(--black);
 }
 
 .aboutCourse .primaryCard > .content {
@@ -200,13 +219,12 @@ video {
   background-image: url(../Images/Course/lXFA6bhMOau.jpg);
   background-size: 100%;
   background-position: center;
-  background-color: var(--black);
+  background-color: var(--white);
   border-radius: 0px var(--primary-radius) var(--primary-radius) 0px;
 }
 
 .aboutCourse .card {
   border-radius: var(--primary-radius);
-  border: 1px solid var(--black);
   padding: 1.5rem;
   gap: 1.5rem;
   flex: 1 0 0;
@@ -240,8 +258,9 @@ video {
       rgba(0, 0, 0, 0.6) 0%,
       rgba(0, 0, 0, 0.6) 100%
     ),
-    url(../Images/Course/lewis-keegan-XQaqV5qYcXg-unsplash.jpg), lightgray 50% / cover no-repeat;
-    background-size: 100%;
+    url(../Images/Course/lewis-keegan-XQaqV5qYcXg-unsplash.jpg),
+    lightgray 50% / cover no-repeat;
+  background-size: 100%;
 }
 
 .cerfificate > div {
@@ -257,7 +276,6 @@ video {
   flex-direction: column;
   gap: 2rem;
   border-radius: var(--primary-radius);
-  border: 1px solid var(--black);
 }
 
 .pricing .price {
@@ -265,7 +283,7 @@ video {
   flex-direction: column;
   gap: 0.5rem;
   padding-bottom: 3.125%;
-  border-bottom: 1px solid var(--black);
+  border-bottom: 1px solid var(--white);
 }
 
 .pricing h1 {
@@ -295,7 +313,6 @@ video {
   display: flex;
   align-items: center;
   border-radius: var(--primary-radius);
-  border: 1px solid var(--black);
 }
 
 .aboutProfessor .column {
@@ -350,7 +367,6 @@ video {
   gap: 2rem;
   flex: 1 0 0;
   border-radius: 1.25rem;
-  border: 1px solid var(--black);
 }
 
 .testimonial .content {
@@ -393,7 +409,7 @@ video {
   display: flex;
   padding: 1.25rem 1.5rem;
   border-radius: var(--secondary-radius);
-  border: 1px solid var(--black);
+  box-shadow: 0 0 0.4rem rgba(3, 140, 115, 0.7);
 }
 
 details summary {
@@ -432,14 +448,14 @@ footer .links {
 }
 
 .links a {
-  color: #005d9a;
+  color: var(--primary-color);
 }
 
 footer .credits {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid var(--black);
+  border-top: 1px solid var(--white);
   padding-top: 1.4rem;
 }
 
@@ -450,7 +466,7 @@ footer .footerLinks {
 }
 
 .footerLinks a {
-  color: var(--black);
+  color: var(--white);
   font-size: 0.875rem;
   font-weight: 400;
 }
