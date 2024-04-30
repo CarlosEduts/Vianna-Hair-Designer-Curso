@@ -36,4 +36,4 @@ Esperamos que este projeto seja útil e que o curso "Vianna Hair Designer" seja 
 
 
 
-Acesse o site [Aqui!](https://carloseduts.github.io/Vianna-Hair-Designer-Curso-Corte/).🚀
+Acesse o site [Aqui!](https://carloseduts.github.io/Vianna-Hair-Designer-Curso).🚀
